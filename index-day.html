@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style-day.css">
+	<title>Stormy day in summer.</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.js"></script>
+</head>
+	<body>
+		<div id="rain"></div>
+
+		<!-- Chrome doen't autoplay. This fixes it! -->
+		<iframe src="sounds/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+		<script src="js/drop.js"></script>
+		<script src="js/rain.js"></script>
+		<script>
+			var sound = new Howl({
+				src: ['sounds/rain-thunder.mp3'],
+				autoplay: true,
+				loop: true,
+				volume: 0.5,
+			});
+
+			sound.play();
+		</script>
+	</body>
+</html>
