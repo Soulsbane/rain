@@ -22,8 +22,8 @@ particlesJS("rain",
 				},
 				"image": {
 					"src": "images/rain.png",
-					"width": 61,
-					"height": 205
+					"width": 28,
+					"height": 39
 				}
 			},
 			"opacity": {
@@ -55,16 +55,16 @@ particlesJS("rain",
 			},
 			"move": {
 				"enable": true,
-				"speed": 27,
-				"direction": "bottom",
+				"speed": 37,
+				"direction": "bottom-right",
 				"random": false,
 				"straight": true,
 				"out_mode": "out",
 				"bounce": false,
 				"attract": {
 					"enable": false,
-					"rotateX": 600,
-					"rotateY": 1200
+					"rotateX": 100,
+					"rotateY": 200
 				}
 			}
 		},
