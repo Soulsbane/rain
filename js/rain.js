@@ -2,7 +2,7 @@ particlesJS("rain",
 	{
 		"particles": {
 			"number": {
-				"value": 42,
+				"value": 70,
 				"density": {
 					"enable": true,
 					"value_area": 800
