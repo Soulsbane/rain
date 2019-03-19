@@ -12,13 +12,6 @@ body {
 	background-repeat: no-repeat;
 }
 
-/*body {
-    background:  url("../img/backimg.jpg") no-repeat;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-}*/
-
 .rainCanvas, .flashDiv {
     width: 100%;
     height: 100%;
