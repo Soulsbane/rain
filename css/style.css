@@ -25,10 +25,10 @@ body {
 
 @keyframes flashAnim {
 	0% { background: transparent; }
-	55% { background: rgba(254, 255, 202, 0.27); }
+	55% { background: rgba(88, 88, 87, 0.27); }
 	60% { background: transparent; }
-	75% { background: rgba(254, 255, 202, 0.27); }
+	75% { background: rgba(88, 88, 87, 0.27); }
 	80% { background: transparent; }
-	95% { background: rgba(254, 255, 202, 0.27); }
+	95% { background: rgba(88, 88, 87, 0.27); }
 	100% { background: transparent; }
 }
