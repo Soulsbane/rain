@@ -18,7 +18,7 @@ body {
 }
 
 #daytimeForestBackground {
-	background-image: url("../images/misty.forest.night.jpg");
+	background-image: url("../images/misty.forest.day.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
