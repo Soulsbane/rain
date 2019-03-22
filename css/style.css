@@ -1,3 +1,7 @@
+body {
+	margin: 0px;
+}
+
 #rain {
 	position: absolute;
 	width: 100%;
@@ -5,11 +9,20 @@
 	top: 0;
 }
 
-body {
+#nighttimeForestBackground {
 	background-image: url("../images/misty.forest.night.jpg");
 	background-size: cover;
-	height: 100%;
 	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+#daytimeForestBackground {
+	background-image: url("../images/misty.forest.night.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
 }
 
 .rainCanvas, .flashDiv {
